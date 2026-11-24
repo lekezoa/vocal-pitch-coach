@@ -274,7 +274,7 @@
   <footer>
     <span>Built for Pollinations Quest #20022</span>
     <span>•</span>
-    <a href="https://pollinations.ai" target="_blank" rel="noopener">Made with pollinations.ai</a>
+    <a href="https://pollinations.ai/?ref=badge" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/pollinations/pollinations/main/packages/ui/src/brand/badge-made-with.svg" alt="Made with pollinations.ai" style="height:28px;vertical-align:middle;"></a>
     <span>•</span>
     <a href="https://github.com/lekezoa/vocal-pitch-coach" target="_blank">GitHub Repository</a>
   </footer>
@@ -440,7 +440,7 @@ Provide an actionable, encouraging coaching breakdown:
           method: "POST",
           headers: headers,
           body: JSON.stringify({
-            model: "openai/gpt-4o-mini",
+            model: "openai/gpt-5.4-nano",
             messages: [
               { role: "system", content: "You are a professional singing and voice master coach." },
               { role: "user", content: prompt }
